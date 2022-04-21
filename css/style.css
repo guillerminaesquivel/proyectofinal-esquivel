@@ -15,6 +15,12 @@ html {
 
 
 /* --------------------------------- header --------------------------------- */
+.bella {
+    width: 50px;
+    height: 50px;
+    transition: all 1.5s ease-in-out;
+}
+
 .header {
     color: black;
     opacity: 75%;
@@ -22,13 +28,10 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    transition: all 1.5s ease-in-out;
-}
 
-.logo:hover {
+
+
+.bella:hover {
     transform: translateX(600px);
 }
 
@@ -89,13 +92,15 @@ h1:hover {
 }
 
 .servicios {
-padding: 1px;
+    padding: 1px;
     background-color: whitesmoke;
-border-top: 1px solid #ffb6c1;
+    border-top: 1px solid #ffb6c1;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: initial;
+    display: grid;
+    grid-template-columns: auto;
 
 
 }
@@ -105,7 +110,7 @@ border-top: 1px solid #ffb6c1;
 .boton {
     border-radius: 6px;
     padding: 0%;
-    width: 90px;
+    width: 120px;
     height: 20px;
     margin: 50px auto;
     background-color: #ffb6c1;
@@ -113,18 +118,24 @@ border-top: 1px solid #ffb6c1;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 55px;
-    justify-items: center;
     align-items: center;
-    align-content: space-between;
-
     flex-direction: column-reverse;
+    color: black;
+    font-weight: bold;
 }
+
 .a {
-color: black;
+    color: black;
     text-decoration: none;
 }
+
 .boton:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.desayuno {
+    width: 800px;
+    height: 150px;
 }
 
 /* ------------------------------- fin article ------------------------------ */
@@ -135,36 +146,52 @@ color: black;
     font-family: 'Hubballi', cursive;
     font-size: 75%;
     padding-top: 25px;
-    border: 2px solid #ffb6c1;
+    border: 1px solid #ffb6c1;
+    flex-direction: row;
+
+
+}
+
+
+ul {
+    list-style: none;
+    color: black;
+    margin-top: 30px;
 
 }
 
 .list {
     color: black;
-    display: flex;
-    justify-content: left;
     margin-top: 30px;
-}
+    padding-bottom: 2px;
 
-.phone {
-    width: 60px;
-    height: 60px;
-}
-
-.instagram {
-    width: 60px;
-    height: 60px;
-}
-
-.facebook {
-    width: 60px;
-    height: 60px;
 }
 
 .redes {
+
     display: flex;
     justify-content: right;
 }
+
+.phone {
+    width: 30px;
+    height: 30px;
+
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+
+}
+
+
 
 /* ------------------------------- FORMULARIO ------------------------------- */
 .speaker-form {
