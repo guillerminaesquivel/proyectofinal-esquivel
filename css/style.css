@@ -251,3 +251,22 @@ ul {
 }
 
 /* ------------------------------ FIN FORMULARIO----------------------------- */
+
+/* ---------------------------------- MEDIA --------------------------------- */
+@media screen and (min-width: 491px) and (max-width: 968px) {
+    body {
+        background-color: whitesmoke;
+    }
+    
+}
+/* --------------------------------- desktop -------------------------------- */
+@media screen and (min-width: 969px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+@media print {
+    body {
+        background-color: whitesmoke;
+    }
+}
