@@ -1,0 +1,6 @@
+@mixin prefijos ($valor){
+    transform: $valor;
+}
+.form-row {
+    @include prefijos(scale(4))
+}

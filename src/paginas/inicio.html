@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <!-- ------------------------------ bootstrap ------------------------------ -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- --------------------------------- CSS --------------------------------- -->
-    <link rel="stylesheet" href="../../stylebackup.css">
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- -------------------------- meta description --------------------------- -->
+        <meta name="description" content="Somos un pequeño emprendimiento que brindamos un servicio de té completo. Deseamos compartir esos
+        momentos especiales para que puedas disfrutar al 100%.">
+        <meta name="keywords" content="desayunos, tardes de té, especial, vajilla.">
+    
+        <meta property="og:type" content="desayuno">
+        <meta property="og:type" content="tarde de té">
+        <link rel="shortcut icon" href="../../src/multimedia/images/logo.png" type="image/x-icon">
+        <!-- ------------------------------ bootstrap ------------------------------ -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- --------------------------------- CSS --------------------------------- -->
+        <link rel="stylesheet" href="../../stylebackup.css">
+        <link rel="stylesheet" href="../../css/style.css">
+    
+    
+    
+        <title>Inicio</title>
+    </head>
 <body>
     <!-- --------------------------- comienzo header --------------------------- -->
     <header>
@@ -48,52 +59,89 @@
 
 
     </header>
+    <!-- ----------------------------- fin header ------------------------------ -->
+
     <!-- -------------------------- comienzo article --------------------------- -->
     <article>
-        <p>Elegí la propuesta que más se acerca a vos. Conoce las diferentes combinaciones que te ofrecemos y elegí la
-            que mejor se adapte a vos y a tu día
-        </p>
-        <img src="desayuno" alt="desayuno">
-    </article>
-    <!-- ----------------------------- fin article ----------------------------- -->
-    <!-- --------------------------- comienzo footer --------------------------- -->
-    <footer class="footer-container">
-        <div>
-            <nav>
-                <ul class="list">
-                    <a href="inicio.html">
-                        <li>INICIO</li>
-                    </a>
-                    <a href="quienes.html">
-                        <li>QUIENES SOMOS</li>
-                    </a>
+        <!-- ------------------------------- inicio -------------------------------- -->
+        <div class="presentacion">
+            <h1>BELLA GIORNATA</h1>
+            <p class="paragraph">
+                Somos un pequeño emprendimiento que brindamos un servicio de té completo. Deseamos compartir esos
+                momentos especiales para que puedas disfrutar al 100%. Nosotros llevamos todo, montamos la mesa con
+                mantelería y vajilla delicada, decoramos tu espacio y lo dejamos listo para que compartas con tus
+                invitados
+                Queremos que disfrutes de una variedad de Infusiones,aromas y nuestro menú casero hecho con mucho amor.
+                Hacemos de ese día un momento especial
 
-                    <a href="servicios.html">
-                        <li>SERVICIOS</li>
-                    </a>
-                    <a href="tienda.html">
-                        <li>TIENDA</li>
-                    </a>
-                    <a href="contacto.html">
-                        <li>CONTACTO</li>
-                    </a>
+                <img class="photo" src="src/multimedia/images/cafe.jpg" alt="tarde de té">
+        </div>
+
+
+
+        <!-- -------------------- introduccion sobre servicios --------------------- -->
+        <article>
+            <div class="servicios">
+                <p class="text">
+                    Conoce las diferentes combinaciones que te ofrecemos y opta por la que mejor se adapte a
+                    vos.
+                </p>
+
+
+
+                <!-- ------------- boton que te lleve directamente a servicios ------------- -->
+                <div>
+                    <a class="boton" href="../src/paginas/servicios.html">Servicios</a>
+                </div>
+
+
+        </article>
+        <!-- ----------------------------- fin article ----------------------------- -->
+   <!-- --------------------------- comienzo footer --------------------------- -->
+   <footer class="footer-container">
+    <div>
+        <nav>
+            <ul class="list">
+                <a href="inicio.html">
+                    <li>INICIO</li>
+                </a>
+                <a href="quienes.html">
+                    <li>QUIENES SOMOS</li>
+                </a>
+
+                <a href="servicios.html">
+                    <li>SERVICIOS</li>
+                </a>
+                <a href="tienda.html">
+                    <li>TIENDA</li>
+                </a>
+                <a href="contacto.html">
+                    <li>CONTACTO</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div>
+
+
+        <div>
+            <nav class="redes">
+                <ul>
+                    <li><img class="phone" src="../multimedia/images/phone.png" alt="numero de celular"></li>
+                    <li><img class="instagram" src="../multimedia/images/instagram.png" alt="instagram"></li>
+                    <li><img class="facebook" src="../multimedia/images/facebook.png" alt="facebook"></li>
+                    <!-- -- apretar el icono de las aplicaciones y que te lleve a las mismas --- -->
                 </ul>
             </nav>
         </div>
-        <div>
+</footer>
 
-
-            <div>
-                <nav class="redes">
-                    <ul>
-                        <li><img class="phone" src="../multimedia/images/phone.png" alt="numero de celular"></li>
-                        <li><img class="instagram" src="../multimedia/images/instagram.png" alt="instagram"></li>
-                        <li><img class="facebook" src="../multimedia/images/facebook.png" alt="facebook"></li>
-                        <!-- -- apretar el icono de las aplicaciones y que te lleve a las mismas --- -->
-                    </ul>
-                </nav>
-            </div>
-    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+        </script>
 
 </body>
 

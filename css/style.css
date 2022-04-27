@@ -1,12 +1,17 @@
-.body {
-  font-size: "Lato", sans-serif;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import 'header';
+ *   |         ^^^^^^^^
+ *   '
+ *   scss\style.scss 1:9  root stylesheet */
 
-.footer-container {
-  border: 1px solid #ffb6c1;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  
 }
-.footer-container list {
-  color: black;
-}
-
-/*# sourceMappingURL=style.css.map */
