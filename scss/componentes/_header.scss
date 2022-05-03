@@ -1,4 +1,23 @@
 .body {
     font-size: 'Lato', sans-serif;
 
-} 
+}
+.bella {
+    width: 50px;
+    height: 50px;
+    transition: all 1.5s ease-in-out;
+}
+
+.header {
+    color: black;
+    opacity: 75%;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.bella:hover {
+    transform: translateX(600px);
+}

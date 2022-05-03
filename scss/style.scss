@@ -1,3 +1,19 @@
-@import 'header';
-@import 'footer';
-@import 'mixins';
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke
+}
+html {
+    background-color: whitesmoke
+}
+
+/* ---------------------------------- fonts --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'base/mixins';
+@import 'componentes/article';
+@import 'componentes/formulario';
+@import 'componentes/servicios'

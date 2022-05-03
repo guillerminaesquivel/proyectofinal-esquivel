@@ -1,7 +1,51 @@
 .footer-container {
+    color: black;
+    font-family: 'Hubballi', cursive;
+    font-size: 75%;
+    padding-top: 25px;
     border: 1px solid #ffb6c1;
-    list {
-        color: black;
+    flex-direction: row;
 
-        }
-    }
+
+}
+
+
+ul {
+    list-style: none;
+    color: black;
+
+
+}
+
+.list {
+    color: black;
+    margin-top: 30px;
+    padding-bottom: 2px;
+
+}
+
+.redes {
+    display: flex;
+    justify-items: flex-end;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.phone {
+    width: 30px;
+    height: 30px;
+
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+
+}
+
