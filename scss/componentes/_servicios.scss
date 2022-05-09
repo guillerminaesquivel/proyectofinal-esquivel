@@ -1,15 +1,14 @@
-
-.service { display: grid;
+.service {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+
     .serv-desayuno {
         font-family: 'Lato', sans-serif;
-        .img-desayuno { width: 50px;
-            height: 50px;
-            
-            
-        }
+
+        
     }
 }
+
 .boton-des {
     border-radius: 6px;
     padding: 0%;
@@ -26,5 +25,9 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column-reverse;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+.service {
+    display: flex;
+    justify-content: space-around;
 }

@@ -16,4 +16,23 @@ html {
 @import 'base/mixins';
 @import 'componentes/article';
 @import 'componentes/formulario';
-@import 'componentes/servicios'
+@import 'componentes/servicios';
+
+
+@media screen and (min-width: 969px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+
+
+@media print {
+    body {
+        background-color: whitesmoke;
+    }
+}
+@media all and (max-width: 768px) {
+    body {
+        justify-content: space-around;
+    }
+}
